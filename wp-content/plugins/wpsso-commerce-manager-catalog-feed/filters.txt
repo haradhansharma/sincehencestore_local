@@ -1,0 +1,3 @@
+
+'wpsso_cache_expire_cmcf_xml' ( WEEK_IN_SECONDS, $cache_type, $mod = false )
+

@@ -1,0 +1,291 @@
+# Copyright (C) 2024 WPSSO Commerce Manager Catalog Feed XML
+# This file is distributed under the same license as the WPSSO Commerce Manager Catalog Feed XML package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSSO Commerce Manager Catalog Feed XML 4.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-commerce-"
+"manager-catalog-feed\n"
+"POT-Creation-Date: 2024-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:235
+msgid "The %1$s add-on requires the %2$s plugin."
+msgstr ""
+
+#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:254
+msgid ""
+"The %1$s add-on requires %2$s version %3$s or newer (version %4$s is "
+"currently installed)."
+msgstr ""
+
+#: gettext/gettext-lib-config.php:5
+msgctxt "lib file description"
+msgid "Meta Catalog"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:6
+msgctxt "plugin name"
+msgid "WPSSO Commerce Manager Catalog Feed XML"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:7
+msgctxt "plugin description"
+msgid ""
+"Facebook and Instagram Commerce Manager Catalog Feed XMLs for WooCommerce "
+"and custom product pages."
+msgstr ""
+
+#: gettext/gettext-lib-config.php:8
+msgctxt "plugin name"
+msgid "WPSSO Core"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:9 lib/filters-advanced.php:44
+#: lib/filters.php:62
+msgctxt "option label"
+msgid "Commerce Manager Catalog Feed XML"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:10
+msgctxt "option value"
+msgid "Atom 1.0"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:11
+msgctxt "option value"
+msgid "RSS 2.0"
+msgstr ""
+
+#: lib/actions.php:61
+msgid "checking facebook catalog feed"
+msgstr ""
+
+#: lib/actions.php:89 lib/filters-messages.php:125
+#: lib/submenu/facebook-catalog.php:32 lib/xml.php:36
+msgctxt "metabox title"
+msgid "Commerce Manager Catalog Feed XML"
+msgstr ""
+
+#: lib/actions.php:115
+msgid "checking facebook catalog feed images"
+msgstr ""
+
+#: lib/actions.php:128
+msgid ""
+"A Facebook catalog feed XML %1$s attribute could not be generated for %2$s "
+"ID %3$s."
+msgstr ""
+
+#: lib/actions.php:130
+msgid ""
+"Facebook requires at least one %1$s attribute for each product variation in "
+"the Facebook catalog feed XML."
+msgstr ""
+
+#: lib/filters-edit.php:47
+msgid "getting facebook catalog feed image"
+msgstr ""
+
+#: lib/filters-edit.php:54
+msgid "getting open graph image"
+msgstr ""
+
+#: lib/filters-edit.php:66
+msgctxt "metabox title"
+msgid "Commerce Manager Catalog Feed XML (Main Product)"
+msgstr ""
+
+#: lib/filters-edit.php:75
+msgctxt "option label"
+msgid "Image ID"
+msgstr ""
+
+#: lib/filters-edit.php:82
+msgctxt "option label"
+msgid "or an Image URL"
+msgstr ""
+
+#: lib/filters-messages.php:51
+msgid "Each image must be in JPEG or PNG format and a maximum of 8 MB."
+msgstr ""
+
+#: lib/filters-messages.php:54
+msgid "Images must accurately represent the exact product for sale."
+msgstr ""
+
+#: lib/filters-messages.php:57
+msgid ""
+"Don't include offensive content such as nudity, explicit language or "
+"violence."
+msgstr ""
+
+#: lib/filters-messages.php:60
+msgid ""
+"Don't include text that overlays the product, calls to action, promo codes, "
+"watermarks or time-sensitive information like temporary price drops."
+msgstr ""
+
+#: lib/filters-messages.php:69
+msgid ""
+"This is a variable product - images from product variations will supersede "
+"the main product image selected here."
+msgstr ""
+
+#: lib/filters-messages.php:96
+msgid ""
+"The dimensions used for the Facebook catalog feed XML image (default "
+"dimensions are %s)."
+msgstr ""
+
+#: lib/filters-messages.php:105
+msgid "The XML file cache expiration time in seconds (default is %s)."
+msgstr ""
+
+#: lib/filters-messages.php:108
+msgid ""
+"When a product is updated, or the cache expires, the XML file cache is "
+"automatically refreshed."
+msgstr ""
+
+#: lib/filters-messages.php:118
+msgid ""
+"Choose the XML format for URLs shown in the settings page (default is %s)."
+msgstr ""
+
+#: lib/filters-messages.php:127
+msgid ""
+"The %1$s includes all public WordPress post objects (ie. posts, pages, and "
+"custom post types) with an Open Graph type of \"product\" and a language of "
+"%2$s (ie. locale \"%3$s\")."
+msgstr ""
+
+#: lib/filters-messages.php:150
+msgid "A customized image ID for the Facebook catalog feed XML."
+msgstr ""
+
+#: lib/filters-messages.php:153 lib/filters-messages.php:166
+msgid "The default value is inherited from the priority image."
+msgstr ""
+
+#: lib/filters-messages.php:156
+msgid "This option is disabled if a custom image URL is entered."
+msgstr ""
+
+#: lib/filters-messages.php:163
+msgid ""
+"A customized image URL (instead of an image ID) for the Facebook catalog "
+"feed XML."
+msgstr ""
+
+#: lib/filters-messages.php:169
+msgid "This option is disabled if a custom image ID is selected."
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:49
+msgctxt "submit button"
+msgid "Refresh XML Cache"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:60
+msgctxt "task name"
+msgid "refresh the cache"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:63
+msgid "A background task to %s is currently running."
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:65
+msgid "%s is currently unavailable pending completion of a cache refresh task."
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:74
+msgctxt "option label"
+msgid "No Index"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:80
+msgid ""
+"The WordPress <a href=\"%s\">Search Engine Visibility</a> option is set to "
+"discourage search engines from indexing this site."
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:81
+msgid ""
+"%1$s is currently unavailable since all products are marked as %2$s by "
+"default."
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:94
+msgctxt "option label"
+msgid "XML Cache Expiration"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:97
+msgctxt "option comment"
+msgid "seconds"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:100
+msgctxt "option label"
+msgid "XML Format"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:125
+msgctxt "option comment"
+msgid "%s feed items"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:126
+msgctxt "option comment"
+msgid "%s image links"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:127
+msgctxt "option comment"
+msgid "%s additional image links"
+msgstr ""
+
+#: lib/submenu/facebook-catalog.php:128
+msgctxt "option comment"
+msgid "%s KB file size"
+msgstr ""
+
+#: lib/xml.php:43
+msgid "Processing %1$s for %2$s."
+msgstr ""
+
+#: lib/xml.php:55
+msgid "%1$s for %2$s locales has been refreshed."
+msgstr ""
+
+#: lib/xml.php:389
+msgid "%1$s::%2$s() method does not exist."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WPSSO Commerce Manager Catalog Feed XML"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpsso.com/extend/plugins/wpsso-commerce-manager-catalog-feed/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Facebook and Instagram Commerce Manager Catalog Feed XMLs for WooCommerce "
+"and custom product pages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "JS Morisset"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpsso.com/"
+msgstr ""

@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSSO Merchant Return Policy Manager 2.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-merchant-return-policy\n"
+"POT-Creation-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-09-05 15:45-0700\n"
+"Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:235
+msgid "The %1$s add-on requires the %2$s plugin."
+msgstr "L'ajout %1$s requiert l'extension %2$s."
+
+#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:254
+msgid "The %1$s add-on requires %2$s version %3$s or newer (version %4$s is currently installed)."
+msgstr "L'ajout %1$s nécessite %2$s version %3$s ou plus récente (la version %4$s est installée actuellement)."
+
+#: gettext/gettext-lib-config.php:5
+msgctxt "plugin name"
+msgid "WPSSO Merchant Return Policy Manager"
+msgstr "WPSSO Gestionnaire politique de retour de marchand"
+
+#: gettext/gettext-lib-config.php:6
+msgctxt "plugin description"
+msgid "Manage any number of Merchant Return Policies for Google Merchant listings."
+msgstr "Gérez n'importe quel nombre de politiques de retour de marchand pour les listes de marchands Google."
+
+#: gettext/gettext-lib-config.php:7
+msgctxt "plugin name"
+msgid "WPSSO Core"
+msgstr "WPSSO Core"
+
+#: gettext/gettext-lib-config.php:8
+msgctxt "option value"
+msgid "Default Product Return Policy"
+msgstr "Politique retour de produit par défaut"
+
+#: lib/filters-edit.php:51
+msgctxt "option label"
+msgid "Return Policy Name"
+msgstr "Nom de politique de retour"
+
+#: lib/filters-edit.php:57
+msgctxt "option label"
+msgid "Return Policy Is Default"
+msgstr "Politique de retour est défaut"
+
+#: lib/filters-edit.php:64
+msgctxt "metabox title"
+msgid "Return Policy Information"
+msgstr "Informations de politique de retour"
+
+#: lib/filters-edit.php:68
+msgctxt "option label"
+msgid "Return Policy Category"
+msgstr "Catégorie politique de retour"
+
+#: lib/filters-edit.php:78
+msgctxt "option label"
+msgid "Return Window Days"
+msgstr "Jours fenêtre de retour"
+
+#: lib/filters-edit.php:89
+msgctxt "option label"
+msgid "Return Methods"
+msgstr "Méthodes de retour"
+
+#: lib/filters-edit.php:98
+msgctxt "option label"
+msgid "Return Fees"
+msgstr "Frais de retour"
+
+#: lib/filters-edit.php:110
+msgctxt "option label"
+msgid "Shipping Fees"
+msgstr "Frais d'expédition"
+
+#: lib/filters-edit.php:116
+msgctxt "option label"
+msgid "Applicable Countries"
+msgstr "Pays concernés"
+
+#: lib/filters-messages.php:45
+msgid "A name for this return policy (required)."
+msgstr "Un nom pour cette politique de retour (obligatoire)."
+
+#: lib/filters-messages.php:47
+msgid "The return policy name may appear in WordPress editing pages and in the Schema MerchantReturnPolicy \"name\" property."
+msgstr "Le nom de la politique de retour peut apparaître dans les pages d'édition WordPress et dans la propriété de Schéma MerchantReturnPolicy \"name\"."
+
+#: lib/filters-messages.php:54
+msgid "You may choose this return policy as the default."
+msgstr "Vous pouvez choisir cette politique de retour comme politique par défaut."
+
+#: lib/filters-messages.php:60
+msgid "The type of return policy."
+msgstr "Le type de politique de retour."
+
+#: lib/filters-messages.php:66
+msgid "The number of days from the delivery date that a product can be returned."
+msgstr "Le nombre de jours à compter de la date de livraison pendant lesquels un produit peut être retourné."
+
+#: lib/filters-messages.php:72
+msgid "The type of return methods offered."
+msgstr "Le type de méthodes de retour proposées."
+
+#: lib/filters-messages.php:78
+msgid "The type of return fees."
+msgstr "Le type de frais de retour."
+
+#: lib/filters-messages.php:84
+msgid "The cost of shipping for returning a product."
+msgstr "Les frais d'expédition pour le retour d'un produit."
+
+#: lib/filters-messages.php:90
+msgid "The countries this return policy applies to."
+msgstr "Les pays auxquels cette politique de retour s'applique."
+
+#: lib/filters-messages.php:92
+msgid "Note that Google limits the selection to a maximum of %d countries."
+msgstr "Notez que Google limite la sélection à un maximum de %d pays."
+
+#: lib/filters-messages.php:114
+msgid "Note that Google limits this selection to a maximum of %d countries."
+msgstr "Notez que Google limite cette sélection à un maximum de %d pays."
+
+#: lib/filters-options.php:115 lib/mrp.php:52
+msgctxt "option value"
+msgid "Return Policy #%d"
+msgstr "Politique de retour #%d"
+
+#: lib/integ/admin/post.php:77
+msgctxt "metabox title"
+msgid "Return Policy"
+msgstr "Politique de retour"
+
+#: lib/mrp.php:91 lib/mrp.php:102
+msgid "Unable to provide information for return policy ID #%s."
+msgstr "Impossible de fournir des informations pour la politique de retour ID #%s."
+
+#: lib/mrp.php:94
+msgid "Please publish return policy ID #%s or select a different return policy."
+msgstr "Veuillez publier la politique de retour ID #%s ou sélectionner une autre politique de retour."
+
+#: lib/mrp.php:104
+msgid "Return policy ID #%s does not exist."
+msgstr "La politique de retour ID #%s n'existe pas."
+
+#: lib/mrp.php:106
+msgid "Please select a different return policy."
+msgstr "Veuillez sélectionner une autre politique de retour."
+
+#: lib/register.php:148
+msgctxt "post type general name"
+msgid "Return Policies"
+msgstr "Politiques de retour"
+
+#: lib/register.php:149
+msgctxt "post type singular name"
+msgid "Return Policy"
+msgstr "Politique de retour"
+
+#: lib/register.php:150 lib/register.php:151
+msgid "Add Return Policy"
+msgstr "Ajouter politique de retour"
+
+#: lib/register.php:152
+msgid "Edit Return Policy"
+msgstr "Modifier politique de retour"
+
+#: lib/register.php:153
+msgid "New Return Policy"
+msgstr "Nouvelle politique de retour"
+
+#: lib/register.php:154
+msgid "View Return Policy"
+msgstr "Voir politique de retour"
+
+#: lib/register.php:155
+msgid "View Return Policies"
+msgstr "Voir les politiques de retour"
+
+#: lib/register.php:156
+msgid "Search Return Policies"
+msgstr "Rechercher dans les politiques de retour"
+
+#: lib/register.php:157
+msgid "No return policies found"
+msgstr "Aucune politique de retour trouvé"
+
+#: lib/register.php:158
+msgid "No return policies found in Trash"
+msgstr "Aucune politique de retour trouvé dans la corbeille"
+
+#: lib/register.php:159
+msgid "Parent Return Policy:"
+msgstr "Politique de retour parent:"
+
+#: lib/register.php:160
+msgid "All Return Policies"
+msgstr "Toutes les politiques de retour"
+
+#: lib/register.php:161
+msgid "Return Policy Archives"
+msgstr "Archives des politiques de retour"
+
+#: lib/register.php:162
+msgid "Return Policy Attributes"
+msgstr "Attributs de la politique de retour"
+
+#: lib/register.php:163
+msgid "Insert into return policy"
+msgstr "Insérer dans la politique de retour"
+
+#: lib/register.php:164
+msgid "Uploaded to this return policy"
+msgstr "Téléchargé à cette politique de retour"
+
+#: lib/register.php:165
+msgid "Return Policy Image"
+msgstr "Image de la politique de retour"
+
+#: lib/register.php:166
+msgid "Set return policy image"
+msgstr "Définir l'image de la politique de retour"
+
+#: lib/register.php:167
+msgid "Remove return policy image"
+msgstr "Supprimer l'image de la politique de retour"
+
+#: lib/register.php:168
+msgid "Use as return policy image"
+msgstr "Utiliser comme image de politique de retour"
+
+#: lib/register.php:169
+msgctxt "admin menu name"
+msgid "SSO Returns"
+msgstr "SSO Retours"
+
+#: lib/register.php:170
+msgid "Filter return policies"
+msgstr "Filtrer les politiques de retour"
+
+#: lib/register.php:171
+msgid "Return Policies list navigation"
+msgstr "Navigation de la liste des politiques de retour"
+
+#: lib/register.php:172
+msgid "Return Policies list"
+msgstr "Liste des politiques de retour"
+
+#: lib/register.php:173
+msgctxt "admin bar name"
+msgid "Return Policy"
+msgstr "Politique de retour"
+
+#: lib/register.php:174
+msgid "Return Policy published."
+msgstr "Politique de retour publié."
+
+#: lib/register.php:175
+msgid "Return Policy published privately."
+msgstr "Politique de retour publié en privé."
+
+#: lib/register.php:176
+msgid "Return Policy reverted to draft."
+msgstr "Politique de retour remis au brouillon."
+
+#: lib/register.php:177
+msgid "Return Policy scheduled."
+msgstr "Politique de retour planifié."
+
+#: lib/register.php:178
+msgid "Return Policy updated."
+msgstr "Politique de retour mis à jour."
+
+#: lib/register.php:193
+msgctxt "post type label"
+msgid "Return Policy"
+msgstr "Politique de retour"
+
+#: lib/register.php:195
+msgctxt "post type description"
+msgid "Return Policy"
+msgstr "Politique de retour"
+
+#: lib/register.php:229
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:230
+msgid "Category"
+msgstr "Catégorie"
+
+#: lib/register.php:231
+msgctxt "admin menu name"
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:232
+msgid "All Categories"
+msgstr "Toutes catégories"
+
+#: lib/register.php:233
+msgid "Edit Category"
+msgstr "Modifier la catégorie"
+
+#: lib/register.php:234
+msgid "View Category"
+msgstr "Voir la catégorie"
+
+#: lib/register.php:235
+msgid "Update Category"
+msgstr "Mettre à jour la catégorie"
+
+#: lib/register.php:236
+msgid "Add New Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+#: lib/register.php:237
+msgid "New Category Name"
+msgstr "Nom de la nouvelle catégorie"
+
+#: lib/register.php:238
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: lib/register.php:239
+msgid "Parent Category:"
+msgstr "Catégorie parente:"
+
+#: lib/register.php:240
+msgid "Search Categories"
+msgstr "Rechercher dans les catégories"
+
+#: lib/register.php:241
+msgid "Popular Categories"
+msgstr "Catégories populaires"
+
+#: lib/register.php:242
+msgid "Separate categories with commas"
+msgstr "Séparez les catégories avec des virgules"
+
+#: lib/register.php:243
+msgid "Add or remove categories"
+msgstr "Ajouter ou retirer des catégories"
+
+#: lib/register.php:244
+msgid "Choose from the most used"
+msgstr "Choisir parmi les plus utilisées"
+
+#: lib/register.php:245
+msgid "No categories found."
+msgstr "Aucune catégorie trouvée."
+
+#: lib/register.php:246
+msgid "← Back to categories"
+msgstr "← Retour aux catégories"
+
+#: lib/register.php:250
+msgctxt "taxonomy label"
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:261
+msgctxt "taxonomy description"
+msgid "Categories for Return Policies"
+msgstr "Catégories pour les politiques de retour"
+
+#. Plugin Name of the plugin/theme
+msgid "WPSSO Merchant Return Policy Manager"
+msgstr "WPSSO Gestionnaire politique de retour de marchand"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpsso.com/extend/plugins/wpsso-merchant-return-policy/"
+msgstr "https://wpsso.com/extend/plugins/wpsso-merchant-return-policy/"
+
+#. Description of the plugin/theme
+msgid "Manage any number of Merchant Return Policies for Google Merchant listings."
+msgstr "Gérez n'importe quel nombre de politiques de retour de marchand pour les listes de marchands Google."
+
+#. Author of the plugin/theme
+msgid "JS Morisset"
+msgstr "JS Morisset"
+
+#. Author URI of the plugin/theme
+msgid "https://wpsso.com/"
+msgstr "https://wpsso.com/"

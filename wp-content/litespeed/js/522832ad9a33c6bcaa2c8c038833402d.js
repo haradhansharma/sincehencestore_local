@@ -1,0 +1,2 @@
+let isScrolling;window.addEventListener('scroll',()=>{const content=document.querySelector('#content');content.classList.add('scrolling');clearTimeout(isScrolling);isScrolling=setTimeout(()=>{content.classList.remove('scrolling')},150)})
+;
